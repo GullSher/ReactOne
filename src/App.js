@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import './Components/Header';
+import './Components/Footer';
+import './Components/NavBar';
+import './Components/Form1';
+import Header from './Components/Header';
+import NavBar from './Components/NavBar';
+import Form1 from './Components/Form1';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +26,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Header />
+      <NavBar />
+      <Form1 />
+      <Footer />
+
     </div>
   );
 }
